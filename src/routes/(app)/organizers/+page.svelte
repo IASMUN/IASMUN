@@ -141,10 +141,6 @@
 				<p class="member-description">Sara Naser</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember3} alt="Lara Alsamraay" />
-				<p class="member-description">Lara Alsamraay</p>
-			</div>
-			<div class="member">
 				<img src={LogisticsMember4} alt="Abdullah Firas" />
 				<p class="member-description">Abdullah Firas</p>
 			</div>
