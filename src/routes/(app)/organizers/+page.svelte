@@ -10,7 +10,6 @@
 
 	import LogisticsMember1 from '$lib/assets/organizers/Ahmed Belari.webp';
 	import LogisticsMember2 from '$lib/assets/organizers/Sara Naser.webp';
-	import LogisticsMember3 from '$lib/assets/organizers/Lara Alsamraay.webp';
 	import LogisticsMember4 from '$lib/assets/organizers/Abdullah Firas.webp';
 	import LogisticsMember5 from '$lib/assets/organizers/Rayan Nimer.webp';
 	import LogisticsMember6 from '$lib/assets/organizers/Turki Saad.webp';
