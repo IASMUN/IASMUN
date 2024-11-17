@@ -9,7 +9,6 @@
 
 	import SecretaryGeneral from '$lib/assets/organizers/Aya Bawaba.webp';
 	import DeputySecretaryGeneral from '$lib/assets/organizers/Yousef Naser.webp';
-	import ChiefAdvisor from '$lib/assets/organizers/Rushda Saeed.webp';
 
 	import Saos from 'saos';
 	import Countdown from '$lib/components/Countdown.svelte';
@@ -84,7 +83,7 @@
 			<div class="text">
 				<Saos once={true} animation="fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
 					<p>
-						Dear Esteemed Delegates, Advisors, and Distinguished Guests,
+						Dear Esteemed Delegates, Advisors and Distinguished Guests,
 						<br /><br />
 						It is with immense pleasure and anticipation that I extend a warm welcome to you all to the
 						International Academic School Model United Nations 2024! As the Secretary-General of IASMUN,
