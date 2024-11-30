@@ -12,11 +12,7 @@
 			</Saos>
 
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<a
-					class="handbook-link"
-					href="/uploads/Delegate%20Handbook.pdf"
-					data-sveltekit-preload-data="off">Delegate Handbook</a
-				>
+				<div class="handbook-link">Delegate Handbook</div>
 			</Saos>
 		</div>
 
@@ -33,12 +29,7 @@
 								index === 0 || index === 1 ? 1 : 1.5
 							}s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`}
 						>
-							<a
-								class="handbook-link"
-								data-sveltekit-preload-data="off"
-								href={`/uploads/background-guides/${committee.replace(' ', '%20')}.pdf`}
-								>{committee}</a
-							>
+						<div class="handbook-link">{committee}</div>
 						</Saos>
 					</div>
 				{/each}
@@ -51,11 +42,7 @@
 			</Saos>
 
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<a
-					class="handbook-link"
-					href="/uploads/Country%20Matrix.pdf"
-					data-sveltekit-preload-data="off">Country Matrix</a
-				>
+				<div class="handbook-link">Country Matrix</div>
 			</Saos>
 		</div>
 	</div>

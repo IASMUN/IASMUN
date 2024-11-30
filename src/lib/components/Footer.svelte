@@ -1,5 +1,4 @@
 <script lang="ts">
-	import TwitterLogo from '$lib/assets/logos/socials/Twitter.svg';
 	import TikTokLogo from '$lib/assets/logos/socials/Tiktok.svg';
 	import InstagramLogo from '$lib/assets/logos/socials/Instagram.svg';
 	import EmailLogo from '$lib/assets/logos/socials/Email.svg';
@@ -24,11 +23,6 @@
 			<img class="tiktok-logo" src={TikTokLogo} alt="tiktok" />
 		</a>
 		<p>@ias.mun</p>
-
-		<a target="_blank" rel="noreferrer" href="https://twitter.com/ias_mun">
-			<img class="twitter-logo" src={TwitterLogo} alt="Twitter" />
-		</a>
-		<p>@ias_mun</p>
 
 		<a target="_blank" rel="noreferrer" href="mailto:iasmuninfo@gmail.com">
 			<img class="email-logo" src={EmailLogo} alt="Email" />
@@ -97,10 +91,6 @@
 	.tiktok-logo {
 		width: 35px;
 		height: 35px;
-	}
-	.twitter-logo {
-		width: 36px;
-		height: 26px;
 	}
 	.instagram-logo {
 		margin-top: 6px;

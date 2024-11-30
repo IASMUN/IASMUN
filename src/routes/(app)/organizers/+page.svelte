@@ -1,26 +1,37 @@
 <script lang="ts">
-	import MediaHead from '$lib/assets/organizers/Mariyam Awan.webp';
+	import MediaHead from '$lib/assets/organizers/Cedra Khaled.webp';
 
 	import MediaMember1 from '$lib/assets/organizers/Abdullah Ismail.webp';
-	import MediaMember2 from '$lib/assets/organizers/Anastasiya Seydalieva.webp';
-	import MediaMember3 from '$lib/assets/organizers/Cedra Khaled.webp';
-	import MediaMember4 from '$lib/assets/organizers/Nader Alkindy.webp';
+	import MediaMember2 from '$lib/assets/organizers/Zeina Ahmed.webp';
+	import MediaMember3 from '$lib/assets/organizers/Faraat Khan.webp';
+	import MediaMember4 from '$lib/assets/organizers/Faisal Bunpha.webp';
+	import MediaMember5 from '$lib/assets/organizers/Sarah Aqraa.webp';
+	import MediaMember6 from '$lib/assets/organizers/Anastasiya Seydalieva.webp';
+	import MediaMember7 from '$lib/assets/organizers/Gayoung Han.webp';
 
-	import LogisticsHead from '$lib/assets/organizers/Zaid Alnajjar.webp';
+	import LogisticsHead from '$lib/assets/organizers/Sara Naser.webp';
 
-	import LogisticsMember1 from '$lib/assets/organizers/Ahmed Belari.webp';
-	import LogisticsMember2 from '$lib/assets/organizers/Sara Naser.webp';
-	import LogisticsMember4 from '$lib/assets/organizers/Abdullah Firas.webp';
-	import LogisticsMember5 from '$lib/assets/organizers/Rayan Nimer.webp';
-	import LogisticsMember6 from '$lib/assets/organizers/Turki Saad.webp';
+	import LogisticsMember1 from '$lib/assets/organizers/Firas Hussain.webp';
+	import LogisticsMember2 from '$lib/assets/organizers/Mohammed Shahdad.webp';
+	import LogisticsMember4 from '$lib/assets/organizers/Shehab Alshehhi.webp';
+	import LogisticsMember5 from '$lib/assets/organizers/Beesan Saif.webp';
+	import LogisticsMember6 from '$lib/assets/organizers/Nouran Mohammed.webp';
+	import LogisticsMember7 from '$lib/assets/organizers/Maryam Belal.webp';
 
-	import PRHead from '$lib/assets/organizers/Ali Faisal.webp';
+	import PRHead from '$lib/assets/organizers/Hala Adnan.webp';
 
-	import PRMember1 from '$lib/assets/organizers/Al-Hassan Ali.webp';
-	import PRMember2 from '$lib/assets/organizers/Nour Ashraf.webp';
-	import PRMember3 from '$lib/assets/organizers/Haneen Saeed.webp';
+	import PRMember1 from '$lib/assets/organizers/Mohammed Mohana.webp';
+	import PRMember2 from '$lib/assets/organizers/Nuha Osama.webp';
 
-	import ChairHead from '$lib/assets/dais/Rahaf Ahmed.webp';
+	import CommitteeHead from '$lib/assets/organizers/Joudy Ramy.webp';
+
+	import CommitteeMember1 from '$lib/assets/organizers/Jumana Wala.webp';
+
+	import CrisisHead from '$lib/assets/organizers/Aarim Zubair.webp';
+
+	import CrisisMember1 from '$lib/assets/organizers/Maryam Riyumkina.webp';
+
+	import VolunteeringHead from '$lib/assets/organizers/Al Hasan Ali.webp';
 
 	import Saos from 'saos';
 </script>
@@ -44,7 +55,7 @@
 			>
 				<div class="head-container">
 					<img src={MediaHead} alt="" />
-					<p class="member-description head-name">Mariyam Awan</p>
+					<p class="member-description head-name">Cedra Khaled</p>
 					<p class="member-description">
 						<span class="role">Head of Media</span>
 					</p>
@@ -56,21 +67,13 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Dear Esteemed Delegates,
-					<br /><br />
-					On behalf of the IASMUN 2024 media team, I extend a warm welcome to each of you! I'm Mariyam
-					Awan, currently a senior in IAS, and as Head of Media for IASMUN 2024, I'm excited to capture
-					and bring to you all the information throughout the preparations and the memories made in this
-					years MUN. Your participation is integral to the success of this conference, and I am confident
-					that your dedication will leave a lasting mark. Let us, as delegates and organizers, collaboratively
-					make this conference an impactful and memorable experience to capture!
-					<br /><br />
-
-					Kindest Regards,
-					<br />
-					Mariyam
-					<br />
-					IASMUN '24 Head of Media
+					Hello! I’m Cedra Khaled, and I’m honored to serve as the Head of Media for the International 
+					Academic School Model United Nations (IASMUN). In this role, I lead a team that’s committed to
+					capturing the energy, discussions, and collaborative spirit that make IASMUN truly unique. Our 
+					goal is to showcase the hard work, creativity, and diplomacy of all the delegates through
+					with our community and beyond. I’m thrilled to be part of an event that fosters global awareness, 
+					leadership, and cooperation, and I look forward to working with everyone to make IASMUN an 
+					unforgettable experience for all involved.
 				</p>
 			</Saos>
 		</div>
@@ -79,18 +82,34 @@
 			<div class="member">
 				<img src={MediaMember1} alt="Abdullah Ismail" />
 				<p class="member-description">Abdullah Ismail</p>
+				<div class="roles">
+					<span class="role">Co-head of Media</span>
+					<span class="role">Head of Photographers</span>
+				</div>
 			</div>
 			<div class="member">
-				<img src={MediaMember2} alt="Anastasiya Seydalieva" />
+				<img src={MediaMember2} alt="Zeina Ahmed" />
+				<p class="member-description">Zeina Ahmed</p>
+			</div>
+			<div class="member">
+				<img src={MediaMember3} alt="Faraat Khan" />
+				<p class="member-description">Faraat Khan</p>
+			</div>
+			<div class="member">
+				<img src={MediaMember4} alt="Faisal Bunpha" />
+				<p class="member-description">Faisal Bunpha</p>
+			</div>
+			<div class="member">
+				<img src={MediaMember5} alt="Sarah Aqraa" />
+				<p class="member-description">Sarah Aqraa</p>
+			</div>
+			<div class="member">
+				<img src={MediaMember6} alt="Anastasiya Seydalieva" />
 				<p class="member-description">Anastasiya Seydalieva</p>
 			</div>
 			<div class="member">
-				<img src={MediaMember3} alt="Cedra Khaled" />
-				<p class="member-description">Cedra Khaled</p>
-			</div>
-			<div class="member">
-				<img src={MediaMember4} alt="Nader Alkindy" />
-				<p class="member-description">Nader Alkindy</p>
+				<img src={MediaMember7} alt="Gayoung Han" />
+				<p class="member-description">Gayoung Han</p>
 			</div>
 		</div>
 	</div>
@@ -107,7 +126,7 @@
 			>
 				<div class="head-container">
 					<img src={LogisticsHead} alt="" />
-					<p class="member-description head-name">Zaid Alnajjar</p>
+					<p class="member-description head-name">Sara Naser</p>
 					<p class="member-description">
 						<span class="role">Head of Logistics</span>
 					</p>
@@ -119,37 +138,48 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Hi there, my name is Zaid Alnajjar and i have the pleasure to be your head of logistics
-					for this years IASMUN. How great it is to be a part of this wonderful event and team, to
-					be the one making it even more fun than it already is. Our job as the logistics team will
-					be making sure you have an overall great experience, and to make sure that all your needs
-					are fulfilled. We will be responsible for the overall visual and fun side of this MUN and
-					that all of you have a great time overall. Best of luck to all the great delegates, and
-					people that will be joining us. See you soon!
+					Honorable Chairs, distinguished delegates, and esteemed guests,
+					<br /><br />
+					As the Head of Logistics, I am thrilled to welcome you all to this year’s Model United Nations
+					conference. Behind the scenes, a dedicated team has worked tirelessly to ensure that 
+					everything runs smoothly, from the setup of the venue to the smallest details that make this 
+					event possible. Our goal is to create an environment where you can focus on the important 
+					debates and discussions that will take place. If there’s anything you need, my team and I are 
+					here to help. Let’s work together to make this IASMUN'25 a truly memorable experience. 
+					<br /><br />
+					Thank you!
 				</p>
 			</Saos>
 		</div>
 
 		<div class="members">
 			<div class="member">
-				<img src={LogisticsMember1} alt="Ahmed Belari" />
-				<p class="member-description">Ahmed Belari</p>
+				<img src={LogisticsMember1} alt="Firas Hussain" />
+				<p class="member-description">Firas Hussain</p>
+				<div class="roles">
+					<span class="role">Co-head of Logistics</span>
+					<span class="role">Head of Finance</span>
+				</div>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember2} alt="Sara Naser" />
-				<p class="member-description">Sara Naser</p>
+				<img src={LogisticsMember2} alt="Mohammed Shahdad" />
+				<p class="member-description">Mohammed Shahdad</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember4} alt="Abdullah Firas" />
-				<p class="member-description">Abdullah Firas</p>
+				<img src={LogisticsMember4} alt="Shehab Alshehhi" />
+				<p class="member-description">Shehab Alshehhi</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember5} alt="Rayan Nimer" />
-				<p class="member-description">Rayan Nimer</p>
+				<img src={LogisticsMember5} alt="Beesan Saif" />
+				<p class="member-description">Beesan Saif</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember6} alt="Turki Saad" />
-				<p class="member-description">Turki Saad</p>
+				<img src={LogisticsMember6} alt="Nouran Mohammed" />
+				<p class="member-description">Nouran Mohammed</p>
+			</div>
+			<div class="member">
+				<img src={LogisticsMember7} alt="Maryam Belal" />
+				<p class="member-description">Maryam Belal</p>
 			</div>
 		</div>
 	</div>
@@ -166,7 +196,7 @@
 			>
 				<div class="head-container">
 					<img src={PRHead} alt="" />
-					<p class="member-description head-name">Ali Faisal</p>
+					<p class="member-description head-name">Hala Adnan</p>
 					<p class="member-description">
 						<span class="role">Head of Public Relations</span>
 					</p>
@@ -178,39 +208,33 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Hello distinguished delegates
+					Hello everyone!
 					<br /><br />
-					I extend a warm welcome to everyone attending the forthcoming IASMUN 2024. My name is Ali Faisal,
-					and I will be leading public relations for this year's event. Aside from that, I'm a 17-year-
-					old who enjoys spending most of my time with friends and studying. I'm grateful for the chance
-					to join this year's public relations team. We greatly appreciate your attendance at IASMUN
-					2024, and we are excited to have such esteemed guests as yourself with us for this important
-					event. Please do not hesitate to contact me or any other member of our team if there is anything
-					we can do to improve your experience or meet any particular needs you may have. Your presence
-					adds immeasurable value, and we look forward to creating memorable moments together.
+					I am Hala Adnan, a senior in IAS, and I have the pleasure of serving as 
+					the Head of Public Relations for IAS MUN 2025. It is my honor to welcome you all to 
+					this year's Model United Nations conference, where I ensure seamless communication, 
+					foster a welcoming environment, and share the inspiring work and resolutions 
+					developed here with a broader audience. Can't wait to welcome you all!
 				</p>
 			</Saos>
 		</div>
 
 		<div class="members">
 			<div class="member">
-				<img src={PRMember1} alt="Al-Hassan Ali" />
-				<p class="member-description">Al-Hassan Ali</p>
+				<img src={PRMember1} alt="Mohammed Mohana" />
+				<p class="member-description">Mohammed Mohana</p>
+				    <span class="role">Co-head of Public Relations</span>
 			</div>
 			<div class="member">
-				<img src={PRMember2} alt="Nour Ashraf" />
-				<p class="member-description">Nour Ashraf</p>
-			</div>
-			<div class="member">
-				<img src={PRMember3} alt="Haneen Saeed" />
-				<p class="member-description">Haneen Saeed</p>
+				<img src={PRMember2} alt="Nuha Osama" />
+				<p class="member-description">Nuha Osama</p>
 			</div>
 		</div>
 	</div>
 
 	<div class="container">
 		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
-			<h1>Head of Chairs</h1>
+			<h1>Committees Team</h1>
 		</Saos>
 
 		<div class="head">
@@ -219,10 +243,10 @@
 				animation="slide-right-pic 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<div class="head-container">
-					<img src={ChairHead} alt="" />
-					<p class="member-description head-name">Rahaf Ahmed</p>
+					<img src={CommitteeHead} alt="" />
+					<p class="member-description head-name">Joudy Ramy</p>
 					<p class="member-description">
-						<span class="role">Head of Chairs</span>
+						<span class="role">Head of Committees</span>
 					</p>
 				</div>
 			</Saos>
@@ -232,21 +256,106 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Hello everyone, My name is Rahaf Ahmed, and I am thrilled to be taking on the role of head
-					of chairs for the second edition of our annual IASMUN conference, as well as chairing for
-					the Arab League EN. I am a senior in IAS, and my interest in politics and debate has
-					always been strong. However, my passion grew after my first MUN experience. In fact, I
-					enjoyed it so much that I immediately made the decision to pursue international relations
-					instead of law. With that being said, I extend a warm welcome to you at IASMUN. I hope
-					that this experience provides you with the opportunity to improve your public speaking
-					abilities, debate skills, research capabilities, quick thinking abilities, and confidence.
-					As head of chairs, I will put forth my greatest effort to fulfill my responsibilities and
-					ensure that IASMUN remains in your memories. I wish you all the best of luck.
+					Hey, it’s Joudy, your Head of Committees!
+					<br /><br />
+					I’m thrilled to welcome each of you—delegates, chairs, advisors, and pagers—to what’s sure to 
+					be an inspiring MUN experience. My focus is to make our committees the heart of this 
+					conference: places where meaningful debates unfold, fresh ideas are shared, and everyone 
+					grows. Each of you plays an essential role, from engaging in debates and guiding discussions to 
+					supporting and keeping everything running smoothly. Together, we’re building a space where 
+					everyone can make a lasting impact.
+					<br /><br />
+					Let’s create powerful memories and friendships that will last beyond the closing ceremony. Can’t 
+					wait to see you all in action!
+					<br /><br />
+					Best Regards,
+					<br />
+					Joudy Ramy
+				</p>
+			</Saos>
+		</div>
+		
+	    <div class="members">
+		    <div class="member">
+			    <img src={CommitteeMember1} alt="Jumana Wala" />
+			    <p class="member-description">Jumana Wala</p>
+				<span class="role">Co-head of Committees</span>
+		    </div>
+	    </div>
+	</div>
+
+	<div class="container crisis">
+		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+			<h1>Crisis Team</h1>
+		</Saos>
+	
+		<div class="head">
+			<Saos
+				once={true}
+				animation="slide-right-pic 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
+			>
+				<div class="head-container">
+					<img src={CrisisHead} alt="" />
+					<p class="member-description head-name">Aarim Zubair</p>
+					<p class="member-description">
+						<span class="role">Head of Crisis</span>
+					</p>
+				</div>
+			</Saos>
+	
+			<Saos
+				once={true}
+				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
+			>
+				<p class="head-letter">
+					My name is Aarim Zubair. I’m 16 years old. My house is in the northeast section of International 
+					City, where all the apartments are, and I am broke. I'm a student at International Academic 
+					School and I get home every day by 3:30 PM at the latest. I don’t smoke, nor do I vape. I’m in 
+					bed by 11 PM, and make sure I get eight hours of sleep, no matter what. After having a glass of 
+					warm milk and doing about twenty minutes of stretches before going to bed, I usually have no 
+					problems sleeping until morning. Just like a baby, I wake up without any fatigue or stress in the 
+					morning.
+					<br /><br />
+					I was told there were no issues at my last check-up. I’m trying to explain that I’m a person who 
+					wishes to live a very quiet life. That is how I deal with society, and I know that is what brings me 
+					happiness.
+				</p>
+			</Saos>
+		</div>
+	
+		<div class="members">
+			<div class="member">
+			    <img src={CrisisMember1} alt="Maryam Riyumkina" />
+			    <p class="member-description">Maryam Riyumkina</p>
+				<span class="role">Co-head of Crisis</span>
+		    </div>
+		</div>
+	</div>
+
+	<div class="container volunteering">
+		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+			<h1>Volunteering Team</h1>
+		</Saos>
+	
+		<div class="head">
+			<Saos once={true} animation="slide-right-pic 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+				<div class="head-container">
+					<img src={VolunteeringHead} alt="" />
+					<p class="member-description head-name">Al Hasan Ali</p>
+					<p class="member-description">
+						<span class="role">Head of Volunteering</span>
+					</p>
+				</div>
+			</Saos>
+	
+			<Saos once={true} animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+				<p class="head-letter">
 				</p>
 			</Saos>
 		</div>
 	</div>
 </div>
+
 
 <style>
 	@keyframes -global-slide-left-letter {
@@ -288,7 +397,14 @@
 	}
 	.role {
 		font-family: 'Copperplate Gothic';
+		font-size: 18px;
 		text-transform: uppercase;
+	}
+	.roles {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: center;
 	}
 	.main {
 		display: grid;
@@ -320,6 +436,7 @@
 	}
 	img {
 		width: 300px;
+		object-fit: cover;
 		aspect-ratio: 1;
 	}
 	.member-description {

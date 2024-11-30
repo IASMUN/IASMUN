@@ -16,11 +16,19 @@
 
 		<Saos once={true} animation="fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
 			<p>
-				At IASMUN, our mission is to ignite curiosity, inspire collaboration, and empower young
-				minds to become global citizens. We strive to create an inclusive and dynamic platform where
-				students from diverse backgrounds can express their ideas, develop critical thinking skills,
-				and foster lasting connections. We believe that by embracing dialogue, empathy, and
-				creativity, we can shape a brighter future together.
+				At IAS Model United Nations, our mission is to cultivate an enriching experience where every participant has the
+				opportunity to develop invaluable skills such as collaboration, critical thinking, public speaking, teamwork, and
+				leadership. Through structured simulations of real-world diplomatic processes, we aim to empower young leaders to
+			    approach global challenges with confidence and clarity. This conference is designed to be a transformative journey,
+			    encouraging participants to discover their voices, refine their perspectives, and emerge as more capable and engaged
+			    global citizens.
+                <br />
+				<br />
+				We strive to create a diverse, inclusive, and intellectually stimulating environment, where people from all backgrounds
+			    come together to learn and grow. By fostering a collaborative and supportive atmosphere, we encourage delegates not only
+			    to engage in rigorous debate but also to form lasting connections with like-minded individuals who share a passion for
+			    understanding and addressing pressing international issues.
+
 			</p>
 		</Saos>
 	</div>
@@ -31,12 +39,12 @@
 
 		<Saos once={true} animation="fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
 			<p>
-				In the second edition of IASMUN, we're building on the enthusiasm of our awesome senior
-				leaders from 2023. Imagine a place where everyone's ideas matter, and we work together to
-				solve global challenges. IASMUN 2024 is all about making friends, sharing thoughts, and
-				finding real solutions. We want this to be a special space where you feel heard, and
-				together, we'll make the world a better, more connected place. Join us in creating a future
-				where kindness, teamwork, and understanding rule the day!
+				Our vision is that each participant leaves the conference with something valuable—whether it be new friends, essential 
+				life skills, a deeper understanding of diplomacy, or simply the satisfaction of an engaging debate. IAS Model United
+				Nations 2025 aspires to be a place where knowledge is gained, perspectives are broadened, and future leaders are
+			    inspired. We are committed to ensuring that every individual gains a meaningful experience that will serve them well
+			    beyond the conference, as they continue to grow and contribute to the world around them.
+
 			</p>
 		</Saos>
 	</div>
@@ -47,31 +55,26 @@
 
 		<Saos once={true} animation="fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
 			<p>
-				In the fall of 2023, a group of visionary seniors dared to dream big. Inspired by a shared
-				passion for diplomacy and global issues, they founded the International Academic School
-				Model United Nations (IASMUN). These seniors, now 2023 graduates, infused IASMUN with
-				creativity and enthusiasm.
+				In the fall of 2023, a group of passionate seniors founded the International Academic School Model United Nations
+			    (IASMUN), driven by a shared vision for diplomacy and global awareness. They laid a strong foundation with creativity
+			    and enthusiasm, transforming IASMUN into a dynamic space for students to discuss, debate, and innovate solutions to
+				global challenges. Their leadership inspired a culture of collaboration and critical thinking that has continued to
+			    shape IASMUN's legacy.
+
 				<br />
 				<br />
-				In their first year, the 2023 seniors crafted innovative initiatives, fostering an environment
-				where students could discuss, debate, and dream about solutions to global challenges. Their leadership
-				not only built the foundation of IASMUN, but also left an indelible mark on the hearts of all
-				who participated.
+				Guided by the insights of these founders, the 2024 seniors took IASMUN to new heights in its second edition in January
+			    2024, with nine committees and over 250 delegates—an impressive expansion that solidified IASMUN’s reputation as a leading
+			    MUN conference.
 				<br />
 				<br />
 
-				As they embarked on their final year, the 2023 graduates envisioned a legacy beyond
-				graduation. With determination and wisdom, they guided the 2024 seniors, sharing their
-				insights and passing the torch. The second year of IASMUN, now under the capable hands of
-				the 2024 seniors, continues to thrive, a testament to the enduring spirit of collaboration
-				and leadership initiated by the founders.
-				<br />
-				<br />
+				Now, as IASMUN moves into its third edition in 2025, under the dedicated leadership of current juniors and seniors, the
+			    conference continues to grow and evolve. With fresh ideas and an unwavering commitment to global issues, the 2025 team
+			    is committed to enhancing the IASMUN experience even further, ensuring it remains a platform for impactful diplomacy
+			    and meaningful connections. Each year builds on the dreams of those before, preserving IASMUN’s enduring spirit and
+			    inspiring the next generation of leaders.
 
-				IASMUN's history is not just about conferences and resolutions; it's a tale of students,
-				friendships, and the power of a shared vision. The journey continues, each year building
-				upon the dreams of those who came before, ensuring that the spirit of IASMUN endures and
-				inspires generations to come.
 			</p>
 		</Saos>
 	</div>

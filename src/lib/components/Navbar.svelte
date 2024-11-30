@@ -1,5 +1,4 @@
 <script lang="ts">
-	import TwitterLogo from '$lib/assets/logos/socials/Twitter.svg';
 	import TikTokLogo from '$lib/assets/logos/socials/Tiktok.svg';
 	import InstagramLogo from '$lib/assets/logos/socials/Instagram.svg';
 	import EmailLogo from '$lib/assets/logos/socials/Email.svg';
@@ -37,13 +36,6 @@
 	<div class="socials">
 		{#if ready}
 			<div class="links">
-				<a
-					class="twitter-logo-link"
-					target="_blank"
-					rel="noreferrer"
-					href="https://twitter.com/ias_mun"
-					><img class="twitter-logo-img" src={TwitterLogo} alt="twitter" /></a
-				>
 				<a
 					class="tiktok-logo-link"
 					target="_blank"
@@ -97,7 +89,7 @@
 				>
 				<!-- <a class={$page.url.pathname == '/faq' ? 'active' : ''} href="/faq">FAQ</a> -->
 				<a class={$page.url.pathname == '/archives' ? 'active' : ''} href="/archives">Archives</a>
-				<a target="_blank" rel="noreferrer" href="https://forms.gle/1ajf1YMnf8tvWJ7m9"
+				<a target="_blank" rel="noreferrer" href="https://forms.gle/FHDowfX3pQz8XKZw9"
 					>Registration</a
 				>
 				<a href="mailto:iasmuninfo@gmail.com">Contact Us</a>
@@ -164,9 +156,6 @@
 		transform: translateY(-6px);
 	}
 
-	.twitter-logo-link {
-		grid-area: twitter;
-	}
 	.tiktok-logo-link {
 		grid-area: tiktok;
 	}
@@ -178,10 +167,6 @@
 		grid-area: email;
 	}
 
-	.twitter-logo-img {
-		width: 38px;
-		height: 38px;
-	}
 	.tiktok-logo-img {
 		width: 38px;
 		height: 38px;
@@ -279,10 +264,6 @@
 		.links {
 			gap: 10px;
 		}
-		.twitter-logo-img {
-			width: 32px;
-			height: 32px;
-		}
 		.tiktok-logo-img {
 			width: 32px;
 			height: 32px;
@@ -307,7 +288,7 @@
 		.links {
 			grid-template-columns: repeat(6, 1fr);
 			grid-template-areas:
-				'twitter tiktok'
+				'tiktok'
 				'instagram email';
 		}
 		nav {

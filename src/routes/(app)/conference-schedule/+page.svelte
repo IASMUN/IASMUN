@@ -3,7 +3,7 @@
 	let days = [
 		{
 			day: 'Friday',
-			date: '(19th January)',
+			date: '(JANUARY 17TH 2025)',
 			timing: [
 				{ start: '1:30pm', end: '3:00pm', desc: 'Arrival and Registration' },
 				{ start: '3:00pm', end: '5:00pm', desc: 'Opening Ceremony' },
@@ -13,27 +13,29 @@
 		},
 		{
 			day: 'Saturday',
-			date: '(20th January)',
+			date: '(JANUARY 18th 2025)',
 			timing: [
 				{ start: '9:20am', end: '10:00am', desc: 'Arrival' },
 				{ start: '10:00am', end: '12:30pm', desc: 'Second Committee Session' },
-				{ start: '12:30pm', end: '2:00pm', desc: 'Break' },
+				{ start: '12:30pm', end: '2:00pm', desc: 'Break(Snack Included)' },
 				{ start: '2:00pm', end: '4:00pm', desc: 'Third Committee Session' },
-				{ start: '4:00pm', end: '5:00pm', desc: 'Break' },
+				{ start: '4:00pm', end: '5:00pm', desc: 'Break(Snack Included)' },
 				{ start: '5:00pm', end: '6:30pm', desc: 'Fourth Committee Session' },
-				{ start: '6:30pm', end: '7:00pm', desc: 'Short Break' },
-				{ start: '7:00pm', end: '8:30pm', desc: 'Social Night' }
+				{ start: '6:30pm', end: '7:00pm', desc: 'Break' },
+				{ start: '7:00pm', end: '9:00pm', desc: 'Social Night' }
 			]
 		},
 		{
 			day: 'Sunday',
-			date: '(21st January)',
+			date: '(JANUARY 19th 2025)',
 			timing: [
 				{ start: '9:20am', end: '10:00am', desc: 'Arrival' },
 				{ start: '10:00am', end: '12:30pm', desc: 'Fifth Committee Session' },
-				{ start: '12:30pm', end: '2:00pm', desc: 'Break' },
+				{ start: '12:30pm', end: '2:00pm', desc: 'Break(Snack Included)' },
 				{ start: '2:00pm', end: '4:30pm', desc: 'Sixth Committee Session' },
-				{ start: '4:30pm', end: '6:00pm', desc: 'Awards Ceremony' }
+				{ start: '4:30pm', end: '5:00pm', desc: 'Break(Snack Included)' },
+				{ start: '5:00pm', end: '7:00pm', desc: 'Gala Dinner' },
+				{ start: '7:00pm', end: '8:30pm', desc: 'Closing Ceremony' }
 			]
 		}
 	];

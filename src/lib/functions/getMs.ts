@@ -4,7 +4,7 @@ export const getMs = (): {
 	minutes: number;
 	seconds: number;
 } => {
-	let difference = new Date('January 19, 2024, 13:30:00').getTime() - new Date().getTime();
+	let difference = new Date('January 17, 2025, 13:30:00').getTime() - new Date().getTime();
 
 	if (difference < 0) return { days: 0, hours: 0, minutes: 0, seconds: 0 };
 
