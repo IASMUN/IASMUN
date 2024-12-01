@@ -9,7 +9,7 @@
 
 	import SecretaryGeneral from '$lib/assets/organizers/Hiba Ali.webp';
 	import DeputySecretaryGeneral from '$lib/assets/organizers/Nour Ashraf.webp';
-    import UnderSecretaryGeneral from '$lib/assets/organizers/Nour Moustafa.webp';
+	import UnderSecretaryGeneral from '$lib/assets/organizers/Nour Moustafa.webp';
 
 	import Saos from 'saos';
 	import Countdown from '$lib/components/Countdown.svelte';
@@ -87,18 +87,19 @@
 						Hello, delegates, chairs, and anyone else who wants to show up!
 						<br /><br />
 
-						I'm Hiba Naveed Ali, your Secretary-General for this year's IASMUN. And let me just say—it's 
-						an honour (and a whole lot of paperwork) to be here. This role is a once-in-a-lifetime opportunity 
-						for me. Literally. I'm not doing this again.
+						I'm Hiba Naveed Ali, your Secretary-General for this year's IASMUN. And let me just
+						say—it's an honour (and a whole lot of paperwork) to be here. This role is a
+						once-in-a-lifetime opportunity for me. Literally. I'm not doing this again.
 						<br /><br />
 
-						But since I'm here, I promise to give it my all: from helping you navigate international crises to 
-						ensuring the Wi-Fi stays alive. You'll debate, collaborate, and maybe even accidentally become 
-						best friends with someone you were supposed to politically destroy (it happens).
+						But since I'm here, I promise to give it my all: from helping you navigate international
+						crises to ensuring the Wi-Fi stays alive. You'll debate, collaborate, and maybe even
+						accidentally become best friends with someone you were supposed to politically destroy
+						(it happens).
 						<br /><br />
 
-						So let's make this conference unforgettable—because trust me, I'll be remembering it every time 
-						I scroll through my gallery (and Instagram). Now, go make me proud and show the world why 
+						So let's make this conference unforgettable—because trust me, I'll be remembering it
+						every time I scroll through my gallery. Now, go make me proud and show the world why
 						this MUN is the best one yet.
 						<br /><br />
 
@@ -133,24 +134,24 @@
 						Welcome to IASMUN 25!
 						<br /><br />
 
-						It's my pleasure to welcome each of you to IASMUN 2025! As your Deputy Secretary-General,
-						I am thrilled to see the passion and commitment you bring to this conference. IASMUN is more 
-						than an event; it's a journey in diplomacy, leadership, and self-discovery, 
-						and I'm excited for what lies ahead for each of you.
+						It's my pleasure to welcome each of you to IASMUN 2025! As your Deputy
+						Secretary-General, I am thrilled to see the passion and commitment you bring to this
+						conference. IASMUN is more than an event; it's a journey in diplomacy, leadership, and
+						self-discovery, and I'm excited for what lies ahead for each of you.
 						<br /><br />
 
-						Leadership isn't about titles—it's about making a difference. Like figure skating, it's the grace in
-						each step that truly matters. At IASMUN, the focus is on learning, collaboration, and the shared
-						experience of tackling global challenges together.
+						Leadership isn't about titles—it's about making a difference. Like figure skating, it's
+						the grace in each step that truly matters. At IASMUN, the focus is on learning,
+						collaboration, and the shared experience of tackling global challenges together.
 						<br /><br />
 
-						This is your chance to step into a diplomat's shoes, build valuable skills, and form meaningful 
-						connections. Upholding values of fairness, equality, and respect, we strive to reflect the inclusive 
-						world we all aim to create.
+						This is your chance to step into a diplomat's shoes, build valuable skills, and form
+						meaningful connections. Upholding values of fairness, equality, and respect, we strive
+						to reflect the inclusive world we all aim to create.
 						<br /><br />
 
-						Embrace every challenge, collaborate fully, and let this experience inspire you. Your dedication 
-						makes IASMUN truly special.
+						Embrace every challenge, collaborate fully, and let this experience inspire you. Your
+						dedication makes IASMUN truly special.
 						<br /><br />
 
 						Warm regards,
@@ -166,33 +167,33 @@
 	</div>
 
 	<div class="container under-sg">
-        <Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
-            <h1>Under-Secretary General's<br /><span class="welcome">Welcome</span></h1>
-        </Saos>
+		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+			<h1>Under-Secretary General's<br /><span class="welcome">Welcome</span></h1>
+		</Saos>
 
-        <div class="content">
-			 <div class="text">
-                <Saos once={true} animation="fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
-                    <p>
-                        Hi there!
-                        <br /><br />
+		<div class="content">
+			<div class="text">
+				<Saos once={true} animation="fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
+					<p>
+						Hi there!
+						<br /><br />
 
-                        As the Under-Secretary-General, it's my pleasure to welcome each of you—delegates,
-                        advisors, and supporters—to IASMUN 2025. This event is more than just a conference;
-                        it's a gathering of passionate minds determined to make a difference. IASMUN thrives
-                        on the enthusiasm, resilience, and vision of its participants, and each one of you
-                        plays a vital role in making it extraordinary.
-                        <br /><br />
+						As the Under-Secretary-General, it's my pleasure to welcome each of you—delegates,
+						advisors, and supporters—to IASMUN 2025. This event is more than just a conference; it's
+						a gathering of passionate minds determined to make a difference. IASMUN thrives on the
+						enthusiasm, resilience, and vision of its participants, and each one of you plays a
+						vital role in making it extraordinary.
+						<br /><br />
 
-                        In my role, I'm here to ensure that every aspect of this conference supports your
-                        journey and allows your ideas to flourish. Our team has worked with dedication to
-                        create a platform that's both challenging and inspiring, one that encourages
-                        collaboration and mutual respect. I'm excited to see the discussions and insights
-                        that will come out of this year's conference.
-                        <br /><br />
+						In my role, I'm here to ensure that every aspect of this conference supports your
+						journey and allows your ideas to flourish. Our team has worked with dedication to create
+						a platform that's both challenging and inspiring, one that encourages collaboration and
+						mutual respect. I'm excited to see the discussions and insights that will come out of
+						this year's conference.
+						<br /><br />
 
-                        Thank you for being part of IASMUN 2025. Let's make this a memorable experience for
-                        all involved. Welcome to IASMUN 2025.
+						Thank you for being part of IASMUN 2025. Let's make this a memorable experience for all
+						involved. Welcome to IASMUN 2025.
 						<br /><br />
 
 						Best regards,
@@ -201,15 +202,15 @@
 						Nour Moustafa
 						<br />
 						Under Secretary-General
-                    </p>
-                </Saos>
-            </div>
+					</p>
+				</Saos>
+			</div>
 
 			<Saos once={true} animation="slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
-                <img src={UnderSecretaryGeneral} alt="Under-Secretary General" />
-            </Saos>
-        </div>
-    </div>
+				<img src={UnderSecretaryGeneral} alt="Under-Secretary General" />
+			</Saos>
+		</div>
+	</div>
 </div>
 
 <style>
