@@ -1,0 +1,1 @@
+import{a as e,t as o}from"../chunks/disclose-version.BLj-8m0C.js";import"../chunks/legacy.BxREZut7.js";var i=o(`<div class="main svelte-1iwd6ow"><h1>404 | This page doesn't exist</h1></div>`);function n(a){var t=i();e(a,t)}export{n as component};
