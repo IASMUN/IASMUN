@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	import Saos from 'saos';
 
 	import Shape1 from '$lib/assets/2023/shapes/Vector 1.svg';
@@ -23,7 +25,7 @@
 				<a
 					class="handbook-link"
 					data-sveltekit-preload-data="off"
-					href={`/uploads/2023/handbooks/Delegate Handbook.pdf`}>Delegate Handbook</a
+					href={`${base}/uploads/2023/handbooks/Delegate Handbook.pdf`}>Delegate Handbook</a
 				>
 			</Saos>
 		</div>
@@ -43,7 +45,7 @@
 						<a
 							class="handbook-link"
 							data-sveltekit-preload-data="off"
-							href={`/uploads/2023/handbooks/${committee}_Handbook.pdf`}>{committee}</a
+							href={`${base}/uploads/2023/handbooks/${committee}_Handbook.pdf`}>{committee}</a
 						>
 					</Saos>
 				{/each}
