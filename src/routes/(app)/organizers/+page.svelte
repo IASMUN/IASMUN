@@ -308,17 +308,12 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					My name is Aarim Zubair. I’m 16 years old. My house is in the northeast section of International 
-					City, where all the apartments are, and I am broke. I'm a student at International Academic 
-					School and I get home every day by 3:30 PM at the latest. I don’t smoke, nor do I vape. I’m in 
-					bed by 11 PM, and make sure I get eight hours of sleep, no matter what. After having a glass of 
-					warm milk and doing about twenty minutes of stretches before going to bed, I usually have no 
-					problems sleeping until morning. Just like a baby, I wake up without any fatigue or stress in the 
-					morning.
+					Hello delegates!
 					<br /><br />
-					I was told there were no issues at my last check-up. I’m trying to explain that I’m a person who 
-					wishes to live a very quiet life. That is how I deal with society, and I know that is what brings me 
-					happiness.
+					I'm Aarim Zubair, and I’ll be your Head of Crisis for IASMUN. In Crisis, you won’t face boring or generic 
+					situations, but rather intense and even a bit unorthodox scenarios where you’ll need to come up with solutions
+				    on the spot. Some of you may inadvertently trigger WW3, while others might bring about world peace. What I can
+				    assure you, however, is that you’ll have a fun and memorable time.
 				</p>
 			</Saos>
 		</div>

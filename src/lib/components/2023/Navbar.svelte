@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-
 	import TwitterLogo from '$lib/assets/2023/logos/socials/Twitter.svg';
 	import TikTokLogo from '$lib/assets/2023/logos/socials/Tiktok.svg';
 	import InstagramLogo from '$lib/assets/2023/logos/socials/Instagram.svg';
@@ -36,7 +34,7 @@
 />
 
 <nav>
-	<p class="msg">You are viewing an archive. <a class="back" href="{base}/">Go Back</a></p>
+	<p class="msg">You are viewing an archive. <a class="back" href="/">Go Back</a></p>
 
 	<div class="socials">
 		{#if ready}
@@ -78,22 +76,22 @@
 				<a
 					in:fly={showLinks ? undefined : { x: 200, duration: 1200 }}
 					class={$page.url.pathname == '/2023' ? 'active' : ''}
-					href="{base}/2023">Home</a
+					href="/2023">Home</a
 				>
 				<a
 					in:fly={showLinks ? undefined : { x: 200, duration: 1700 }}
 					class={$page.url.pathname == '/2023/committees' ? 'active' : ''}
-					href="{base}/2023/committees">Committees</a
+					href="/2023/committees">Committees</a
 				>
 				<a
 					in:fly={showLinks ? undefined : { x: 200, duration: 2200 }}
 					class={$page.url.pathname == '/2023/conference-schedule' ? 'active' : ''}
-					href="{base}/2023/conference-schedule">Conference Schedule</a
+					href="/2023/conference-schedule">Conference Schedule</a
 				>
 				<a
 					in:fly={showLinks ? undefined : { x: 200, duration: 2700 }}
 					class={$page.url.pathname == '/2023/guidebooks' ? 'active' : ''}
-					href="{base}/2023/guidebooks">Guidebooks</a
+					href="/2023/guidebooks">Guidebooks</a
 				>
 				<!-- <a
 					in:fly={showLinks ? undefined : { x: 200, duration: 3200 }}
