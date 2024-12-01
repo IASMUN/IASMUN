@@ -3,8 +3,8 @@
 	import InstagramLogo from '$lib/assets/logos/socials/Instagram.svg';
 	import EmailLogo from '$lib/assets/logos/socials/Email.svg';
 
-	import IASSchool from '$lib/assets/logos/IAS Logo.webp';
-	import IASMun from '$lib/assets/logos/IASMUN.webp';
+	import IASLogo from '$lib/assets/logos/IAS Logo.webp';
+	import IASMunLogo from '$lib/assets/logos/IASMUN.webp';
 
 	let slide_left = 'footer-slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
 	let slide_right = 'footer-slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
@@ -31,9 +31,17 @@
 	</div>
 
 	<div class="images">
-		<img class="IASMUN" alt="IASMUN" src={IASMun} />
+		<img
+			class="IASMUN"
+			alt="IASMUN"
+			src="https://iasmun.com/_app/immutable/assets/IAS%20Logo.jL2D-5Y4.webp"
+		/>
 
-		<img class="IAS" alt="IAS" src={IASSchool} />
+		<img
+			class="IAS"
+			alt="IAS"
+			src="https://iasmun.com/_app/immutable/assets/IASMUN.CegkrEIO.webp"
+		/>
 	</div>
 
 	<p class="copyright">&#169; All Rights Reserved</p>
