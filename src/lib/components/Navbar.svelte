@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	import TikTokLogo from '$lib/assets/logos/socials/Tiktok.svg';
 	import InstagramLogo from '$lib/assets/logos/socials/Instagram.svg';
 	import EmailLogo from '$lib/assets/logos/socials/Email.svg';
@@ -72,15 +74,17 @@
 			out:fly={{ x: 200, duration: 800 }}
 		>
 			{#if ready}
-				<a class={$page.url.pathname == '/' ? 'active' : ''} href="/">Home</a>
-				<a class={$page.url.pathname == '/about-us' ? 'active' : ''} href="/about-us">About Us</a>
-				<a class={$page.url.pathname == '/organizers' ? 'active' : ''} href="/organizers"
+				<a class={$page.url.pathname == '/' ? 'active' : ''} href="{base}/">Home</a>
+				<a class={$page.url.pathname == '/about-us' ? 'active' : ''} href="{base}/about-us"
+					>About Us</a
+				>
+				<a class={$page.url.pathname == '/organizers' ? 'active' : ''} href="{base}/organizers"
 					>Organizers</a
 				>
-				<a class={$page.url.pathname == '/committees' ? 'active' : ''} href="/committees"
+				<a class={$page.url.pathname == '/committees' ? 'active' : ''} href="{base}/committees"
 					>Committees</a
 				>
-				<a class={$page.url.pathname == '/guidebooks' ? 'active' : ''} href="/guidebooks"
+				<a class={$page.url.pathname == '/guidebooks' ? 'active' : ''} href="{base}/guidebooks"
 					>Guidebooks</a
 				>
 				<a
@@ -88,7 +92,9 @@
 					href="/conference-schedule">Conference Schedule</a
 				>
 				<!-- <a class={$page.url.pathname == '/faq' ? 'active' : ''} href="/faq">FAQ</a> -->
-				<a class={$page.url.pathname == '/archives' ? 'active' : ''} href="/archives">Archives</a>
+				<a class={$page.url.pathname == '/archives' ? 'active' : ''} href="{base}/archives"
+					>Archives</a
+				>
 				<a target="_blank" rel="noreferrer" href="https://forms.gle/FHDowfX3pQz8XKZw9"
 					>Registration</a
 				>
