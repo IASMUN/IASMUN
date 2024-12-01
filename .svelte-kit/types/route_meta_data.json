@@ -1,0 +1,44 @@
+{
+	"/(app)": [
+		"src/routes/(app)/+layout.ts",
+		"src/routes/(app)/+layout.ts"
+	],
+	"/": [],
+	"/(app)/-faq": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(archives)/2023": [
+		"src/routes/(archives)/2023/+layout.ts",
+		"src/routes/(archives)/2023/+layout.ts"
+	],
+	"/(archives)/2023/committees": [
+		"src/routes/(archives)/2023/+layout.ts"
+	],
+	"/(archives)/2023/conference-schedule": [
+		"src/routes/(archives)/2023/+layout.ts"
+	],
+	"/(archives)/2023/guidebooks": [
+		"src/routes/(archives)/2023/+layout.ts"
+	],
+	"/(app)/404": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(app)/about-us": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(app)/archives": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(app)/committees": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(app)/conference-schedule": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(app)/guidebooks": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(app)/organizers": [
+		"src/routes/(app)/+layout.ts"
+	]
+}
