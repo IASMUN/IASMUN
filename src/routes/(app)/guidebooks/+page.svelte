@@ -1,7 +1,18 @@
 <script lang="ts">
 	import Saos from 'saos';
 
-	let committees = ['GA1', 'GA2', 'GA3', 'GA4', 'GA5', 'UNODC', 'WHO', 'AL (EN)', 'UNICEF'];
+	let committees = [
+		'GA1',
+		'GA2',
+		'GA3',
+		'UNHRC',
+		'UNFCCC',
+		'UNODC',
+		'WHO',
+		'AL (EN)',
+		'F1',
+		'UNICEF'
+	];
 </script>
 
 <div class="wrapper">
@@ -12,7 +23,11 @@
 			</Saos>
 
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<div class="handbook-link">Delegate Handbook</div>
+				<a
+					class="handbook-link"
+					href="/uploads/Delegate Handbook.pdf"
+					data-sveltekit-preload-data="off">Delegate Handbook</a
+				>
 			</Saos>
 		</div>
 
@@ -29,7 +44,12 @@
 								index === 0 || index === 1 ? 1 : 1.5
 							}s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`}
 						>
-						<div class="handbook-link">{committee}</div>
+							<a
+								class="handbook-link"
+								data-sveltekit-preload-data="off"
+								href={`/uploads/background-guides/${committee.replace(' ', '%20')}.pdf`}
+								>{committee}</a
+							>
 						</Saos>
 					</div>
 				{/each}
@@ -42,7 +62,11 @@
 			</Saos>
 
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<div class="handbook-link">Country Matrix</div>
+				<a
+					class="handbook-link"
+					href="/uploads/Country Matrix.pdf"
+					data-sveltekit-preload-data="off">Country Matrix</a
+				>
 			</Saos>
 		</div>
 	</div>
