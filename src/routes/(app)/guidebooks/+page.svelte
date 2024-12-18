@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Saos from 'saos';
 
+	import { base } from '$app/paths';
+
 	let committees = [
 		'GA1',
 		'GA2',
@@ -25,7 +27,7 @@
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
 				<a
 					class="handbook-link"
-					href="/uploads/Delegate%20Handbook.pdf"
+					href="{base}/uploads/Delegate%20Handbook.pdf"
 					data-sveltekit-preload-data="off">Delegate Handbook</a
 				>
 			</Saos>
@@ -47,7 +49,7 @@
 							<a
 								class="handbook-link"
 								data-sveltekit-preload-data="off"
-								href={`/uploads/background-guides/${committee.replace(' ', '%20')}.pdf`}
+								href={`${base}/uploads/background-guides/${committee.replace(' ', '%20')}.pdf`}
 								>{committee}</a
 							>
 						</Saos>
@@ -64,7 +66,7 @@
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
 				<a
 					class="handbook-link"
-					href="/uploads/Country Matrix.pdf"
+					href="{base}/uploads/Country%20Matrix.pdf"
 					data-sveltekit-preload-data="off">Country Matrix</a
 				>
 			</Saos>
