@@ -1,19 +1,17 @@
 <script lang="ts">
 	import Saos from 'saos';
-
 	import { base } from '$app/paths';
 
 	let committees = [
-		'GA1',
-		'GA2',
-		'GA3',
-		'UNHRC',
-		'UNFCCC',
-		'UNODC',
-		'WHO',
-		'AL (EN)',
-		'F1',
-		'UNICEF'
+		{ name: 'Arab League', file: 'Arab League 26.pdf' },
+		{ name: 'CSW', file: 'CSW 26.pdf' },
+		{ name: 'GA2', file: 'GA2 26.pdf' },
+		{ name: 'GA3', file: 'GA3 26.pdf' },
+		{ name: 'HCC', file: 'HCC 26.pdf' },
+		{ name: 'UNCF', file: 'UNCF 26.pdf' },
+		{ name: 'UNHRC', file: 'UNHRC 26.pdf' },
+		{ name: 'UNODC', file: 'UNODC 26.pdf' },
+		{ name: 'UNSC', file: 'UNSC 26.pdf' }
 	];
 </script>
 
@@ -28,8 +26,10 @@
 				<a
 					class="handbook-link"
 					href="{base}/uploads/Delegate%20Handbook%2026.pdf"
-					data-sveltekit-preload-data="off">Delegate Handbook</a
+					data-sveltekit-preload-data="off"
 				>
+					Delegate Handbook
+				</a>
 			</Saos>
 		</div>
 
@@ -37,9 +37,10 @@
 			<Saos animation="slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
 				<h1 class="header">Background Guides</h1>
 			</Saos>
+
 			<div class="handbook-links">
 				{#each committees as committee, index}
-					<div class={committee}>
+					<div class={committee.name}>
 						<Saos
 							once={true}
 							animation={`slide-top ${
@@ -49,9 +50,10 @@
 							<a
 								class="handbook-link"
 								data-sveltekit-preload-data="off"
-								href={`${base}/uploads/background-guides/${committee.replace(' ', '%20')}.pdf`}
-								>{committee}</a
+								href={`${base}/uploads/background-guides/${encodeURIComponent(committee.file)}`}
 							>
+								{committee.name}
+							</a>
 						</Saos>
 					</div>
 				{/each}
@@ -67,8 +69,10 @@
 				<a
 					class="handbook-link"
 					href="{base}/uploads/Country%20Matrix.pdf"
-					data-sveltekit-preload-data="off">Country Matrix</a
+					data-sveltekit-preload-data="off"
 				>
+					Country Matrix
+				</a>
 			</Saos>
 		</div>
 	</div>
@@ -76,7 +80,6 @@
 
 <svelte:head>
 	<title>Guidebooks</title>
-
 	<meta
 		name="description"
 		content="Delegate Handbook, Background Guides, and Country Matrix for IASMUN"
@@ -94,6 +97,7 @@
 		display: grid;
 		place-items: center;
 	}
+
 	.container {
 		padding: 22px 12px;
 		width: 800px;
@@ -106,6 +110,7 @@
 		justify-content: space-around;
 		gap: 22px;
 	}
+
 	.header {
 		margin-top: 0;
 		margin-bottom: 10px;
@@ -113,12 +118,14 @@
 		font-family: 'Alfa Slab One', sans-serif;
 		letter-spacing: 0.05cm;
 	}
+
 	.main-guidebook,
 	.country-matrix {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.handbook-links {
 		display: flex;
 		flex-direction: row;
@@ -127,6 +134,7 @@
 		align-content: center;
 		gap: 12px;
 	}
+
 	.handbook-link {
 		cursor: pointer;
 		display: block;
@@ -137,35 +145,9 @@
 		text-decoration: none;
 		transition: 0.5s;
 	}
+
 	.handbook-link:hover {
-		background-color: var(--teal);
 		opacity: 0.73;
-	}
-
-	@keyframes -global-slide-bottom {
-		0% {
-			-webkit-transform: translateY(-50px);
-			transform: translateY(-50px);
-			opacity: 0;
-		}
-		100% {
-			-webkit-transform: translateY(0);
-			transform: translateY(0);
-			opacity: 1;
-		}
-	}
-
-	@keyframes -global-slide-top {
-		0% {
-			-webkit-transform: translateY(50px);
-			transform: translateY(50px);
-			opacity: 0;
-		}
-		100% {
-			-webkit-transform: translateY(0);
-			transform: translateY(0);
-			opacity: 1;
-		}
 	}
 
 	@media screen and (max-width: 850px) {
@@ -175,9 +157,6 @@
 	}
 
 	@media screen and (max-width: 620px) {
-		.handbook-links {
-			grid-template-columns: repeat(3, 160px);
-		}
 		.handbook-link {
 			width: 160px;
 		}
