@@ -27,7 +27,7 @@
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
 				<a
 					class="handbook-link"
-					href="{base}/uploads/Delegate%20Handbook.pdf"
+					href="{base}/uploads/Delegate%20Handbook%2026.pdf"
 					data-sveltekit-preload-data="off">Delegate Handbook</a
 				>
 			</Saos>
