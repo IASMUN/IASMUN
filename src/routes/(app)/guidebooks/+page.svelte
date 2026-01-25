@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 
 	let committees = [
-		{ name: 'Arab League', file: 'Arab League 26.pdf' },
+		{ name: 'Arab League', file: 'ARAB LEAGUE 26.pdf' },
 		{ name: 'CSW', file: 'CSW 26.pdf' },
 		{ name: 'GA2', file: 'GA2 26.pdf' },
 		{ name: 'GA3', file: 'GA3 26.pdf' },
