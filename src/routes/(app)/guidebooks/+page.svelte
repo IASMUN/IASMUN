@@ -1,4 +1,6 @@
 <script lang="ts">
+export const prerender = false;
+
 	import Saos from 'saos';
 	import { base } from '$app/paths';
 
